@@ -34,8 +34,10 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"sSprite2","path":"sprites/sSprite2/sSprite2.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"sSprite1","path":"sprites/sSprite1/sSprite1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
