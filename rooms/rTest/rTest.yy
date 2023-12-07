@@ -11,6 +11,7 @@
     {"name":"inst_11CD027","path":"rooms/rTest/rTest.yy",},
     {"name":"inst_5CD781D9","path":"rooms/rTest/rTest.yy",},
     {"name":"inst_24DF078A","path":"rooms/rTest/rTest.yy",},
+    {"name":"inst_6F56ABCD","path":"rooms/rTest/rTest.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,10 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"I am a Signpost WOOOOO\", 0]",},
           ],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":64.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F56ABCD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBobBackwards","path":"objects/oBobBackwards/oBobBackwards.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"Bob Backwards: Where am I? Who am I?\", 1, [\"1. You are me backwards\", \"2. I don't even know who I am\"]]",},
+          ],"rotation":0.0,"scaleX":0.25,"scaleY":0.25,"x":16.0,"y":80.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
 -246,-2147483648,1,1,-79,-2147483648,1,1,-79,-2147483648,2,1,0,-78,-2147483648,2,1,0,-3,-2147483648,1,1,-73,-2147483648,-2,1,1,0,-3,-2147483648,2,1,0,-73,-2147483648,-6,1,1,0,-74,-2147483648,-4,0,-2869,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tCollision","path":"tilesets/tCollision/tCollision.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
