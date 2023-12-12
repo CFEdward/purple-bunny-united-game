@@ -12,7 +12,7 @@ speedWalk = 2.0;
 speedRoll = 3.0;
 distanceRoll = 72;
 
-spriteIdle = sBob;
+spriteIdle = sMainCharacter;
 
 if (global.targetX != -1)
 {

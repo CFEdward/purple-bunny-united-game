@@ -49,6 +49,8 @@
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},},
     {"id":{"name":"sMainCharacter","path":"sprites/sMainCharacter/sMainCharacter.yy",},},
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"aWall","path":"sprites/aWall/aWall.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},},
     {"id":{"name":"oBobBackwards","path":"objects/oBobBackwards/oBobBackwards.yy",},},

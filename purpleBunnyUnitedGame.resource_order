@@ -30,6 +30,8 @@
     {"name":"sSignpost","order":3,"path":"sprites/sSignpost/sSignpost.yy",},
     {"name":"sMainCharacter","order":7,"path":"sprites/sMainCharacter/sMainCharacter.yy",},
     {"name":"pEntity","order":2,"path":"objects/pEntity/pEntity.yy",},
+    {"name":"oWall","order":9,"path":"objects/oWall/oWall.yy",},
+    {"name":"aWall","order":8,"path":"sprites/aWall/aWall.yy",},
     {"name":"NewTextBox","order":6,"path":"scripts/NewTextBox/NewTextBox.yy",},
     {"name":"oBobBackwards","order":6,"path":"objects/oBobBackwards/oBobBackwards.yy",},
     {"name":"PlayerStateLocked","order":1,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},
