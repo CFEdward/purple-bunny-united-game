@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "aWall",
-  "bbox_bottom": 15,
-  "bbox_left": 0,
-  "bbox_right": 15,
+  "name": "sDiningRoomTiles",
+  "bbox_bottom": 31,
+  "bbox_left": 16,
+  "bbox_right": 127,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84b50e9d-87fb-4217-850a-cf0f3de9f321",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bed418c3-3471-4eff-a1df-aa7020e3534b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1dc8138e-50ad-4f82-a325-b3f5ebe7e974","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d66ca85-2da9-4a21-9126-3a1d0ca79272","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "aWall",
+    "name": "sDiningRoomTiles",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84b50e9d-87fb-4217-850a-cf0f3de9f321","path":"sprites/aWall/aWall.yy",},},},"Disabled":false,"id":"3b66752a-38d7-42aa-9e12-3183a4672581","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bed418c3-3471-4eff-a1df-aa7020e3534b","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},},"Disabled":false,"id":"2aed1137-6db3-4d4a-b72c-3b22c287a353","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 128,
 }
