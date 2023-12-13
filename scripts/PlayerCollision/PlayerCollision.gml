@@ -32,23 +32,26 @@ function PlayerCollision()
 
 
 function collision() {
-	//set target values
+	//set values
 	var _tx = x;
 	var _ty = y;
 	
-	//move back to last step position, out of the colision
+	//move back last step position, out of the collision
 	x = xprevious;
 	y = yprevious;
 	
 	//get distance we want to move
-	var _disx = abs(_tx - x);
-	var _disy = abs(_ty - y);
-
-	//move as far in x and y before hitting the wall
+	var _disx = ceil(abs(_tx - x));
+	var _disy = ceil(abs(_ty - y));
+	
+	if place_meeting(x + _disx * sign(_tx - x), y, oWall) x = round(x);
+	if place_meeting(x, y + _disy * sign(_ty - y), oWall) y = round(y);
+	
+	//move as far in x and  y before hitting the wall
 	repeat(_disx) {
 		if !place_meeting(x + sign(_tx - x), y, oWall) x += sign(_tx - x);	
-		}
-	repeat(_disx) {
+	}
+	repeat(_disy) {
 		if !place_meeting(x, y + sign(_ty - y), oWall) y += sign(_ty - y);	
-		}
+	}
 }

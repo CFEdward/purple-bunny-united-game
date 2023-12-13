@@ -12,3 +12,5 @@ global.targetDirection = 0;
 global.iCamera = instance_create_layer(0, 0, layer, oCamera);
 
 display_set_gui_size(RESOLUTION_W, RESOLUTION_H);
+
+global.mp_grid = 0;
