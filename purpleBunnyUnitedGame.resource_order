@@ -34,6 +34,7 @@
     {"name":"sDiningRoomTiles","order":9,"path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},
     {"name":"sWall","order":8,"path":"sprites/sWall/sWall.yy",},
     {"name":"NewTextBox","order":6,"path":"scripts/NewTextBox/NewTextBox.yy",},
+    {"name":"sMainCharacterWalking","order":10,"path":"sprites/sMainCharacterWalking/sMainCharacterWalking.yy",},
     {"name":"oBobBackwards","order":6,"path":"objects/oBobBackwards/oBobBackwards.yy",},
     {"name":"PlayerStateLocked","order":1,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},

@@ -54,6 +54,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},},
+    {"id":{"name":"sMainCharacterWalking","path":"sprites/sMainCharacterWalking/sMainCharacterWalking.yy",},},
     {"id":{"name":"oBobBackwards","path":"objects/oBobBackwards/oBobBackwards.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
