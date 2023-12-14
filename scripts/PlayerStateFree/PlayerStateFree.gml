@@ -8,6 +8,18 @@ function PlayerStateFree()
 	
 	PlayerCollision();
 	
+	// Update Sprite Index
+	var oldSprite = sprite_index;
+	if (inputMagnitude != 0)
+	{
+		direction = inputDirection;
+		sprite_index = spriteWalk;
+	} else sprite_index = spriteIdle;
+	if (oldSprite != sprite_index) localFrame = 0;
+
+	// Update Image Index
+	PlayerAnimateSprite();
+	
 	// Activate key logic
 	if (keyActivate)
 	{

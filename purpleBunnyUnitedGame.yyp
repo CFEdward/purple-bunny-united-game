@@ -43,6 +43,7 @@
     {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},},
+    {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},},
     {"id":{"name":"sSprite2","path":"sprites/sSprite2/sSprite2.yy",},},
     {"id":{"name":"sBobBackwards","path":"sprites/sBobBackwards/sBobBackwards.yy",},},
     {"id":{"name":"oEnemies","path":"objects/oEnemies/oEnemies.yy",},},

@@ -24,6 +24,7 @@
     {"name":"sTextBoxBg","order":4,"path":"sprites/sTextBoxBg/sTextBoxBg.yy",},
     {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oText","order":4,"path":"objects/oText/oText.yy",},
+    {"name":"PlayerAnimateSprite","order":7,"path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},
     {"name":"sSprite2","order":2,"path":"sprites/sSprite2/sSprite2.yy",},
     {"name":"sBobBackwards","order":5,"path":"sprites/sBobBackwards/sBobBackwards.yy",},
     {"name":"oEnemies","order":7,"path":"objects/oEnemies/oEnemies.yy",},

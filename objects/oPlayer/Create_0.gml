@@ -12,7 +12,11 @@ speedWalk = 2.0;
 speedRoll = 3.0;
 distanceRoll = 72;
 
+animationEndScript = noone;
+
 spriteIdle = sMainCharacter;
+spriteWalk = sMainCharacterWalking;
+localFrame = 0;
 
 if (global.targetX != -1)
 {
