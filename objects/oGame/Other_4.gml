@@ -29,7 +29,7 @@ mp_grid_add_instances(global.mp_grid, oWall, true);
 for (var yy = 0; yy < _h; ++yy) {
     for (var xx = 0; xx < _w; ++xx){
         var _t1 = tilemap_get(_map, xx, yy);
-        if (_t1 >= 1 && _t1 <= 47) {
+        if (_t1 >= 9 && _t1 <= 10) {
 			var _inst = collision_point(xx * TILE_SIZE, yy * TILE_SIZE, oWall, 0, 1);
 			
 			if _inst == noone continue;
