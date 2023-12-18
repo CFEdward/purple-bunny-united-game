@@ -21,6 +21,7 @@
   "ResourceOrderSettings": [
     {"name":"oEnemy1","order":8,"path":"objects/oEnemy1/oEnemy1.yy",},
     {"name":"PlayerCollision","order":2,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
+    {"name":"note_papers1","order":20,"path":"sprites/note_papers1/note_papers1.yy",},
     {"name":"smol_barrel3","order":18,"path":"sprites/smol_barrel3/smol_barrel3.yy",},
     {"name":"sTextBoxBg","order":4,"path":"sprites/sTextBoxBg/sTextBoxBg.yy",},
     {"name":"s_enemy_dead","order":13,"path":"sprites/s_enemy_dead/s_enemy_dead.yy",},
@@ -38,7 +39,9 @@
     {"name":"s_enemy_idle","order":15,"path":"sprites/s_enemy_idle/s_enemy_idle.yy",},
     {"name":"pEntity","order":2,"path":"objects/pEntity/pEntity.yy",},
     {"name":"oWall","order":9,"path":"objects/oWall/oWall.yy",},
+    {"name":"note_papers2","order":21,"path":"sprites/note_papers2/note_papers2.yy",},
     {"name":"sDiningRoomTiles","order":9,"path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},
+    {"name":"note_papers3","order":22,"path":"sprites/note_papers3/note_papers3.yy",},
     {"name":"smol_barrel2","order":17,"path":"sprites/smol_barrel2/smol_barrel2.yy",},
     {"name":"sWall","order":8,"path":"sprites/sWall/sWall.yy",},
     {"name":"NewTextBox","order":6,"path":"scripts/NewTextBox/NewTextBox.yy",},

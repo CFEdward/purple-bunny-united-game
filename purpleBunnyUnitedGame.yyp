@@ -33,11 +33,12 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
+    {"id":{"name":"note_papers1","path":"sprites/note_papers1/note_papers1.yy",},},
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
     {"id":{"name":"smol_barrel3","path":"sprites/smol_barrel3/smol_barrel3.yy",},},
@@ -57,7 +58,9 @@
     {"id":{"name":"s_enemy_idle","path":"sprites/s_enemy_idle/s_enemy_idle.yy",},},
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"note_papers2","path":"sprites/note_papers2/note_papers2.yy",},},
     {"id":{"name":"sDiningRoomTiles","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},
+    {"id":{"name":"note_papers3","path":"sprites/note_papers3/note_papers3.yy",},},
     {"id":{"name":"smol_barrel2","path":"sprites/smol_barrel2/smol_barrel2.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
