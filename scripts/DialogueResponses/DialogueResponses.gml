@@ -5,9 +5,9 @@ function DialogueResponses(Response)
 	switch(Response)
 	{
 		case 0: break;
-		case 1: NewTextBox("Bob Backwards: Who was the first one forward then?", 1, ["3. Me!", "0. You!"]); break;
-		case 2: NewTextBox("Bob Backwards: I know right, and everything is yellow...", 1); break;
-		case 3: NewTextBox("Bob Backwards: I'm just a clone then...", 1); break;
+		case 1: NewTextBox("Bob Backwards: Escape? There is only one way to escape.\nYou must find out the truth to escape this place.", 1, ["3. Oh no!", "0. Leave"]); break;
+		case 2: NewTextBox("Bob Backwards: Can you remember what happened?", 1, ["3. No...", "0. Leave"]); break;
+		case 3: NewTextBox("Bob Backwards: Know that once you have learned the truth,\nyour fate will be decided.", 1); break;
 		
 		default: break;
 	}

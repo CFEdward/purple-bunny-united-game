@@ -81,6 +81,7 @@
     {"name":"sCrate2","order":23,"path":"sprites/sCrate2/sCrate2.yy",},
     {"name":"oTextQueued","order":5,"path":"objects/oTextQueued/oTextQueued.yy",},
     {"name":"pEnemy","order":11,"path":"objects/pEnemy/pEnemy.yy",},
+    {"name":"sGhostNPC","order":37,"path":"sprites/sGhostNPC/sGhostNPC.yy",},
     {"name":"sSmolBarrel1","order":19,"path":"sprites/sSmolBarrel1/sSmolBarrel1.yy",},
     {"name":"sPlayer","order":11,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"PlayerStateAttack","order":3,"path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},

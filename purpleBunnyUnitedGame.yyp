@@ -35,7 +35,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
@@ -106,6 +106,7 @@
     {"id":{"name":"sCrate2","path":"sprites/sCrate2/sCrate2.yy",},},
     {"id":{"name":"oTextQueued","path":"objects/oTextQueued/oTextQueued.yy",},},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},},
+    {"id":{"name":"sGhostNPC","path":"sprites/sGhostNPC/sGhostNPC.yy",},},
     {"id":{"name":"sSmolBarrel1","path":"sprites/sSmolBarrel1/sSmolBarrel1.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},

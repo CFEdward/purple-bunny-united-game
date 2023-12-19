@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBobBackwards",
-    "path": "sprites/sBobBackwards/sBobBackwards.yy",
+    "name": "sGhostNPC",
+    "path": "sprites/sGhostNPC/sGhostNPC.yy",
   },
   "spriteMaskId": null,
   "visible": true,
