@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sEnemy",
-    "path": "sprites/sEnemy/sEnemy.yy",
+    "name": "sGhost_1frame",
+    "path": "sprites/sGhost_1frame/sGhost_1frame.yy",
   },
   "spriteMaskId": null,
   "visible": true,

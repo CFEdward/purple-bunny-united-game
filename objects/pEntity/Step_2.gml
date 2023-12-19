@@ -7,3 +7,4 @@ if (!global.gamePaused)
 	// Lift things
 }
 
+flash = max(flash - 0.04, 0);

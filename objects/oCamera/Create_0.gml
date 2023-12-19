@@ -1,4 +1,4 @@
-/// @description 
+/// @description Setup Camera
 
 cam = view_camera[0];
 follow = oPlayer;
@@ -7,4 +7,7 @@ viewHeightHalf = camera_get_view_height(cam) * 0.5;
 xTo = xstart;
 yTo = ystart;
 
-// Camera Shake?
+// Camera Shake
+shakeLength = 0;
+shakeMagnitude = 0;
+shakeRemain = 0;

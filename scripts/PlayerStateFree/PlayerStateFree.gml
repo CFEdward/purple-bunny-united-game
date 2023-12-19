@@ -13,12 +13,19 @@ function PlayerStateFree()
 	if (inputMagnitude != 0)
 	{
 		direction = inputDirection;
-		sprite_index = spriteWalk;
+		sprite_index = spriteRun;
 	} else sprite_index = spriteIdle;
 	if (oldSprite != sprite_index) localFrame = 0;
 
 	// Update Image Index
 	PlayerAnimateSprite();
+	
+	// Attack key logic
+	if (keyAttack)
+	{
+		state = PlayerStateAttack;
+		stateAttack = AttackSlash;
+	}
 	
 	// Activate key logic
 	if (keyActivate)
