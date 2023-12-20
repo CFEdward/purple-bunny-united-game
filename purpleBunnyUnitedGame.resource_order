@@ -50,6 +50,7 @@
     {"name":"oWall","order":9,"path":"objects/oWall/oWall.yy",},
     {"name":"sNotePapers2","order":21,"path":"sprites/sNotePapers2/sNotePapers2.yy",},
     {"name":"sPlayerDead","order":28,"path":"sprites/sPlayerDead/sPlayerDead.yy",},
+    {"name":"s_player_idle","order":37,"path":"sprites/s_player_idle/s_player_idle.yy",},
     {"name":"sDiningRoomTiles","order":9,"path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},
     {"name":"PlayerStateDead","order":5,"path":"scripts/PlayerStateDead/PlayerStateDead.yy",},
     {"name":"sNotePapers3","order":22,"path":"sprites/sNotePapers3/sNotePapers3.yy",},
