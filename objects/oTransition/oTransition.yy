@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Game Logic",
+    "path": "folders/Objects/Game Logic.yy",
   },
   "parentObjectId": null,
   "persistent": true,

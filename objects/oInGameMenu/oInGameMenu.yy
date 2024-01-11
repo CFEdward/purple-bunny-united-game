@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Game Logic",
+    "path": "folders/Objects/Game Logic.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "menu_background_pops6060",
-    "path": "sprites/menu_background_pops6060/menu_background_pops6060.yy",
+    "name": "sMenuBackgroundPops6060",
+    "path": "sprites/sMenuBackgroundPops6060/sMenuBackgroundPops6060.yy",
   },
   "spriteMaskId": null,
   "visible": true,

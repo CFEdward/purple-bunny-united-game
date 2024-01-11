@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemy1",
+  "name": "oFrag_Crate",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Entities.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "pFragment",
+    "path": "objects/pFragment/pFragment.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sGhost_1frame",
-    "path": "sprites/sGhost_1frame/sGhost_1frame.yy",
+    "name": "sFrag_Crate",
+    "path": "sprites/sFrag_Crate/sFrag_Crate.yy",
   },
   "spriteMaskId": null,
   "visible": true,

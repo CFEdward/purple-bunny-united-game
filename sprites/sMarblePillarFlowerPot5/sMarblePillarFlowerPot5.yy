@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "marble_pillar_flower_pot5",
+  "name": "sMarblePillarFlowerPot5",
   "bbox_bottom": 31,
   "bbox_left": 7,
   "bbox_right": 24,
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Breakables",
+    "path": "folders/Sprites/Breakables.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "marble_pillar_flower_pot5",
+    "name": "sMarblePillarFlowerPot5",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5aa17805-3b5b-4f6b-bcd3-835257add7f1","path":"sprites/marble_pillar_flower_pot5/marble_pillar_flower_pot5.yy",},},},"Disabled":false,"id":"848964ed-6645-4df4-b5de-2fc028123c29","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5aa17805-3b5b-4f6b-bcd3-835257add7f1","path":"sprites/sMarblePillarFlowerPot5/sMarblePillarFlowerPot5.yy",},},},"Disabled":false,"id":"848964ed-6645-4df4-b5de-2fc028123c29","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
