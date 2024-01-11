@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "menu_background_pops",
-    "path": "sprites/menu_background_pops/menu_background_pops.yy",
+    "name": "menu_background_pops6060",
+    "path": "sprites/menu_background_pops6060/menu_background_pops6060.yy",
   },
   "spriteMaskId": null,
   "visible": true,
