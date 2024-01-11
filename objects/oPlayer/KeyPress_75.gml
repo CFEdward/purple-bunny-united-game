@@ -1,0 +1,1 @@
+global.knownLetters += ".,:!? welcomeWELCOME";

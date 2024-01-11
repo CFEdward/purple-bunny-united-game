@@ -1,13 +1,14 @@
 /// @arg Message
 /// @arg Background
+/// @arg IsGlitched
 /// @arg [Responses]
-function NewTextBox(Message, Background, Responses)
+function NewTextBox(Message, Background, IsGlitched, Responses)
 {
 	var obj = instance_exists(oText) ? oTextQueued : oText;
 	
 	with (instance_create_layer(0, 0, "Instances", obj))
 	{
-		textMessage = Message;
+		textMessage = IsGlitched ? GenerateGlitchedText(Message) : Message;
 		background = Background;
 		originInstance = instance_exists(other) ? other.id : noone;
 		

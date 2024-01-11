@@ -11,6 +11,8 @@ global.targetDirection = 0;
 global.playerHealthMax = 5.0;
 global.playerHealth = global.playerHealthMax;
 
+global.knownLetters = "";
+
 global.iCamera = instance_create_layer(0, 0, layer, oCamera);
 global.iUI = instance_create_layer(0, 0, layer, oUI);
 
