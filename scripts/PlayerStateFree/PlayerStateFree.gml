@@ -18,7 +18,22 @@ function PlayerStateFree()
 	if (oldSprite != sprite_index) localFrame = 0;
 
 	// Update Image Index
-	PlayerAnimateSprite();
+	if (sprite_index != spriteIdle)
+	{
+		PlayerAnimateSprite();
+	}
+	else
+	{
+		image_index = localFrame + (CARDINAL_DIR * sprite_get_number(sprite_index));
+		localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
+	
+		// If animation would loop on next game step
+		if (localFrame >= sprite_get_number(sprite_index))
+		{
+			animationEnd = true;
+			localFrame -= sprite_get_number(sprite_index);
+		} else animationEnd = false;
+	}
 	
 	// Attack key logic
 	if (keyAttack)
@@ -78,14 +93,5 @@ function PlayerStateFree()
 				}
 			}
 		}
-	}
-	
-	if (vSpeed || hSpeed == 0)
-	{
-		// Setup animation
-		sprite_index = sPlayerIdle;
-		localFrame = 0;
-		image_index = 0;
-		PlayerAnimateSprite();
 	}
 }
