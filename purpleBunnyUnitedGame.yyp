@@ -37,7 +37,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
@@ -75,6 +75,7 @@
     {"id":{"name":"fText2","path":"fonts/fText2/fText2.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sDiningRoomTiles","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},
+    {"id":{"name":"oMainMenuBG","path":"objects/oMainMenuBG/oMainMenuBG.yy",},},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},},
     {"id":{"name":"sNotePapers3","path":"sprites/sNotePapers3/sNotePapers3.yy",},},
     {"id":{"name":"sSmolBarrel2","path":"sprites/sSmolBarrel2/sSmolBarrel2.yy",},},
@@ -101,6 +102,7 @@
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"shRedFlash","path":"shaders/shRedFlash/shRedFlash.yy",},},
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},},
@@ -118,6 +120,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
     {"id":{"name":"sGhost_1frame","path":"sprites/sGhost_1frame/sGhost_1frame.yy",},},
+    {"id":{"name":"sMainMenuBG","path":"sprites/sMainMenuBG/sMainMenuBG.yy",},},
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"oSignpost","path":"objects/oSignpost/oSignpost.yy",},},
     {"id":{"name":"PlayerAttackFunctions","path":"scripts/PlayerAttackFunctions/PlayerAttackFunctions.yy",},},
@@ -126,6 +129,7 @@
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
