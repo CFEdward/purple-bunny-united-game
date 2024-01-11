@@ -79,4 +79,13 @@ function PlayerStateFree()
 			}
 		}
 	}
+	
+	if (vSpeed || hSpeed == 0)
+	{
+		// Setup animation
+		sprite_index = sPlayerIdle;
+		localFrame = 0;
+		image_index = 0;
+		PlayerAnimateSprite();
+	}
 }

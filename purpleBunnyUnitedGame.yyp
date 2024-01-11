@@ -35,7 +35,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
@@ -69,7 +69,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"sNotePapers2","path":"sprites/sNotePapers2/sNotePapers2.yy",},},
     {"id":{"name":"sPlayerDead","path":"sprites/sPlayerDead/sPlayerDead.yy",},},
-    {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},},
+    {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sDiningRoomTiles","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},},
     {"id":{"name":"sNotePapers3","path":"sprites/sNotePapers3/sNotePapers3.yy",},},
