@@ -16,7 +16,12 @@ if accept_key{
 			case 0:
 			switch(pos){
 		
-				case 0: ; break;
+				case 0:
+				{
+					global.gamePaused = false;
+					instance_deactivate_object(oInGameMenu);
+					break;
+				}
 	
 				case 1:  menu_level = 1 break;
 	

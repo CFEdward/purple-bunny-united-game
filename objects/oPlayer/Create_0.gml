@@ -24,7 +24,8 @@ flashShader = shWhiteFlash;
 animationEndScript = noone;
 
 spriteRun = sPlayerRun;
-spriteIdle = sPlayer;
+spriteStanding = sPlayer;
+spriteIdle = sPlayerIdle;
 localFrame = 0;
 
 if (global.targetX != -1)
