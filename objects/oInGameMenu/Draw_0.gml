@@ -1,4 +1,4 @@
-draw_set_font(fText2);
+draw_set_font(fInGameMenu);
 var _new_w = 0;
 for (var i = 0; i < op_length; i++){
 	var _op_w = string_width(option[menu_level, i]);

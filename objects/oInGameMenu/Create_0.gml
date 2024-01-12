@@ -1,12 +1,13 @@
 
 op_border_top = 18;
 op_border = 12;
-op_space = 25;
+op_space = 18;
 
 pos = 0;
 //pause menu
 option[0, 0] = "Resume";
 option[0, 1] = "Settings";
+//option[0, 2] = "Main Menu";
 option[0, 2] = "Quit Game";
 
 //settings menu

@@ -25,13 +25,15 @@ if accept_key{
 	
 				case 1:  menu_level = 1 break;
 	
+				//case 2: instance_deactivate_object(oInGameMenu) room_goto(rMainMenu)   break;
+				
 				case 2: game_end() break;
 			}
 			break;
 		
 			case 1: switch(pos) {
 				case 0:
-			
+					window_set_fullscreen(!window_get_fullscreen());
 				break;
 			
 				case 1:
