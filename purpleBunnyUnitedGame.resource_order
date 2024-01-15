@@ -87,6 +87,7 @@
     {"name":"DodgeRolliGuess","order":15,"path":"sprites/DodgeRolliGuess/DodgeRolliGuess.yy",},
     {"name":"HurtPlayer","order":13,"path":"scripts/HurtPlayer/HurtPlayer.yy",},
     {"name":"sMarblePillarFlowerPot7","order":10,"path":"sprites/sMarblePillarFlowerPot7/sMarblePillarFlowerPot7.yy",},
+    {"name":"FrontAndBackAttackChangedButStillLooksLiKEsHIT","order":18,"path":"sprites/FrontAndBackAttackChangedButStillLooksLiKEsHIT/FrontAndBackAttackChangedButStillLooksLiKEsHIT.yy",},
     {"name":"title_screen_bunny","order":12,"path":"sprites/title_screen_bunny/title_screen_bunny.yy",},
     {"name":"sMarblePillarFlowerPot3","order":6,"path":"sprites/sMarblePillarFlowerPot3/sMarblePillarFlowerPot3.yy",},
     {"name":"EnemyTileCollision","order":10,"path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},

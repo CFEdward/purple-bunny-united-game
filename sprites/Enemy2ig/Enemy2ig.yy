@@ -4,7 +4,7 @@
   "name": "Enemy2ig",
   "bbox_bottom": 487,
   "bbox_left": 20,
-  "bbox_right": 415,
+  "bbox_right": 489,
   "bbox_top": 8,
   "bboxMode": 0,
   "collisionKind": 1,
