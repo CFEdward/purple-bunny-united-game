@@ -8,7 +8,7 @@ global.targetRoom = -1;
 global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = 0;
-global.playerHealthMax = 5.0;
+global.playerHealthMax = 1.0;
 global.playerHealth = global.playerHealthMax;
 
 global.knownLetters = "";

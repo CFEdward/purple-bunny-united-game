@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "EndingIThinkMCFallsIntoHoleAndGoesToHellSLAYYYYYYYYY",
-  "bbox_bottom": 575,
-  "bbox_left": 45,
-  "bbox_right": 494,
+  "bbox_bottom": 63,
+  "bbox_left": 5,
+  "bbox_right": 54,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -45,7 +45,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 576,
+  "height": 64,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6668b66f-e0f5-44a4-b241-e90cfa7e0494","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -126,5 +126,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 576,
+  "width": 64,
 }
