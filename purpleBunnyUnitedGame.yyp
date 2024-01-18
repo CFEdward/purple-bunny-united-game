@@ -44,7 +44,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"GenerateGlitchedText","path":"scripts/GenerateGlitchedText/GenerateGlitchedText.yy",},},
@@ -139,6 +139,7 @@
     {"id":{"name":"sCrate2","path":"sprites/sCrate2/sCrate2.yy",},},
     {"id":{"name":"oTextQueued","path":"objects/oTextQueued/oTextQueued.yy",},},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},},
+    {"id":{"name":"bedroom","path":"sprites/bedroom/bedroom.yy",},},
     {"id":{"name":"standard_galactic_font","path":"fonts/standard_galactic_font/standard_galactic_font.yy",},},
     {"id":{"name":"sGhostNPC","path":"sprites/sGhostNPC/sGhostNPC.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},

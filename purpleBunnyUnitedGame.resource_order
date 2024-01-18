@@ -105,6 +105,7 @@
     {"name":"oTransition","order":2,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sCrate2","order":1,"path":"sprites/sCrate2/sCrate2.yy",},
     {"name":"oTextQueued","order":1,"path":"objects/oTextQueued/oTextQueued.yy",},
+    {"name":"bedroom","order":19,"path":"sprites/bedroom/bedroom.yy",},
     {"name":"standard_galactic_font","order":3,"path":"fonts/standard_galactic_font/standard_galactic_font.yy",},
     {"name":"sGhostNPC","order":5,"path":"sprites/sGhostNPC/sGhostNPC.yy",},
     {"name":"sButton","order":14,"path":"sprites/sButton/sButton.yy",},

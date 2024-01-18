@@ -20,6 +20,6 @@ option[1, 3] = "Back";
 op_length = 0;
 menu_level = 0
 
-depth = -bbox_bottom;
+depth = -10000;
 
 instance_deactivate_object(oInGameMenu);
