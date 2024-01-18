@@ -11,10 +11,10 @@ option[0, 1] = "Settings";
 option[0, 2] = "Quit Game";
 
 //settings menu
-option[1, 0] = "Window Size";
-option[1, 1] = "Brightness";
-option[1, 2] = "Controlls";
-option[1, 3] = "Back";
+option[1, 0] = "Fullscreen";
+//option[1, 1] = "Brightness";
+option[1, 1] = "Controls";
+option[1, 2] = "Back";
 
 
 op_length = 0;

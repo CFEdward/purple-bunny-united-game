@@ -16,3 +16,5 @@ if (x < 0){
 if (y > 0){
 	move_wrap (false, true, sprite_get_width(sMainMenuBG));
 }
+
+window_set_fullscreen(true);

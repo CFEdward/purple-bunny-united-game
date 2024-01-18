@@ -36,15 +36,15 @@ if accept_key{
 					window_set_fullscreen(!window_get_fullscreen());
 				break;
 			
+				//case 1:
+			
+				//break;
+			
 				case 1:
 			
 				break;
 			
 				case 2:
-			
-				break;
-			
-				case 3:
 					menu_level = 0
 				break;
 			}
