@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sDiningRoomTiles",
-  "bbox_bottom": 223,
+  "name": "sBedroom",
+  "bbox_bottom": 174,
   "bbox_left": 0,
-  "bbox_right": 223,
+  "bbox_right": 235,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3df00001-e4c9-4b76-8630-24856bf03fa2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bcbd352-b066-4f9b-8f62-aa48d81cb9f4",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 230,
+  "height": 175,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7609cbbd-ae59-4a15-bfa2-865dfc2e293f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"75aa3034-2a51-49d1-9aed-112dec116abc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sDiningRoomTiles",
+    "name": "sBedroom",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3df00001-e4c9-4b76-8630-24856bf03fa2","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},},"Disabled":false,"id":"de0f8c13-aa3c-45fb-a93a-c80c7b9bb371","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9bcbd352-b066-4f9b-8f62-aa48d81cb9f4","path":"sprites/sBedroom/sBedroom.yy",},},},"Disabled":false,"id":"5a993fa9-1f12-474d-96e5-9ac465200a92","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 230,
+  "width": 236,
 }

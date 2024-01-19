@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "bedroom",
-  "bbox_bottom": 174,
+  "name": "sKitchen",
+  "bbox_bottom": 223,
   "bbox_left": 0,
-  "bbox_right": 235,
+  "bbox_right": 223,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bcbd352-b066-4f9b-8f62-aa48d81cb9f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5ba75734-10a2-44a6-aa9b-fdfe076d1051",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 175,
+  "height": 230,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"75aa3034-2a51-49d1-9aed-112dec116abc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f967213a-7db3-4ce7-8013-8a9d1de5acc6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "bedroom",
+    "name": "sKitchen",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9bcbd352-b066-4f9b-8f62-aa48d81cb9f4","path":"sprites/bedroom/bedroom.yy",},},},"Disabled":false,"id":"5a993fa9-1f12-474d-96e5-9ac465200a92","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ba75734-10a2-44a6-aa9b-fdfe076d1051","path":"sprites/sKitchen/sKitchen.yy",},},},"Disabled":false,"id":"107948c5-3593-43c7-9da9-9040e0df5edd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 236,
+  "width": 230,
 }

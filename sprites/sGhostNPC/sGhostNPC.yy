@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sGhostNPC",
-  "bbox_bottom": 50,
-  "bbox_left": 14,
-  "bbox_right": 45,
+  "bbox_bottom": 63,
+  "bbox_left": 16,
+  "bbox_right": 44,
   "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9018b157-6273-4600-9759-75875d4ba3d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e14cca8b-b500-4017-921f-e6278486b257",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"79ef0603-a444-422f-922c-26fe2918a15f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e7abd2e-e8d0-427a-8146-cad141adfdc4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9018b157-6273-4600-9759-75875d4ba3d5","path":"sprites/sGhostNPC/sGhostNPC.yy",},},},"Disabled":false,"id":"b1185af1-b8be-42e0-b36f-77ac3521b6bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e14cca8b-b500-4017-921f-e6278486b257","path":"sprites/sGhostNPC/sGhostNPC.yy",},},},"Disabled":false,"id":"e1be3a23-5013-4ede-99d9-0e871fcb812a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

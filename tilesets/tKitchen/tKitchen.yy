@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tDiningRoomTiles",
+  "name": "tKitchen",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "sDiningRoomTiles",
-    "path": "sprites/sDiningRoomTiles/sDiningRoomTiles.yy",
+    "name": "sKitchen",
+    "path": "sprites/sKitchen/sKitchen.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
