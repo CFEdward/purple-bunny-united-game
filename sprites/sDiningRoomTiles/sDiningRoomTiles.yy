@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sDiningRoomTiles",
-  "bbox_bottom": 223,
+  "bbox_bottom": 335,
   "bbox_left": 0,
-  "bbox_right": 223,
+  "bbox_right": 335,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3df00001-e4c9-4b76-8630-24856bf03fa2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6bf4ba05-c061-4291-8cfa-7e94fa9a1c71",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 230,
+  "height": 345,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7609cbbd-ae59-4a15-bfa2-865dfc2e293f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"49482d83-6965-4dd2-b8ce-1454a52827ba","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3df00001-e4c9-4b76-8630-24856bf03fa2","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},},"Disabled":false,"id":"de0f8c13-aa3c-45fb-a93a-c80c7b9bb371","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6bf4ba05-c061-4291-8cfa-7e94fa9a1c71","path":"sprites/sDiningRoomTiles/sDiningRoomTiles.yy",},},},"Disabled":false,"id":"48d97aa7-0a95-4b3b-927d-e9fbde0d78af","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 230,
+  "width": 345,
 }
