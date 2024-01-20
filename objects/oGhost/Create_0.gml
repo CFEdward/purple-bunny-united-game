@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+entityDropList = [oNote];
+
 state = ENEMYSTATE.WANDER;
 
 // Enemy Sprites
