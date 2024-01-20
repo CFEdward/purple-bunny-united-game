@@ -56,6 +56,7 @@
     {"name":"RoomTransition","order":16,"path":"scripts/RoomTransition/RoomTransition.yy",},
     {"name":"sPlayerAttackSlash","order":3,"path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},
     {"name":"sSignpost","order":1,"path":"sprites/sSignpost/sSignpost.yy",},
+    {"name":"sMansion","order":23,"path":"sprites/sMansion/sMansion.yy",},
     {"name":"oButtonControls","order":26,"path":"objects/oButtonControls/oButtonControls.yy",},
     {"name":"sPlayer_1frame","order":2,"path":"sprites/sPlayer_1frame/sPlayer_1frame.yy",},
     {"name":"oButtonPlay","order":23,"path":"objects/oButtonPlay/oButtonPlay.yy",},
