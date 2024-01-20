@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sGhostNPC",
-    "path": "sprites/sGhostNPC/sGhostNPC.yy",
+    "name": "sNPC",
+    "path": "sprites/sNPC/sNPC.yy",
   },
   "spriteMaskId": null,
   "visible": true,
