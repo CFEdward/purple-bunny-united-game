@@ -80,6 +80,7 @@
     {"id":{"name":"sGhost","path":"sprites/sGhost/sGhost.yy",},},
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},},
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},},
+    {"id":{"name":"sMansion","path":"sprites/sMansion/sMansion.yy",},},
     {"id":{"name":"oButtonControls","path":"objects/oButtonControls/oButtonControls.yy",},},
     {"id":{"name":"sPlayer_1frame","path":"sprites/sPlayer_1frame/sPlayer_1frame.yy",},},
     {"id":{"name":"oButtonPlay","path":"objects/oButtonPlay/oButtonPlay.yy",},},
