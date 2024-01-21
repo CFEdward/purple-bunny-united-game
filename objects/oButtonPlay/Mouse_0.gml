@@ -1,4 +1,4 @@
 event_inherited();
 
-room_goto(rInit);
+room_goto(rIntro);
 

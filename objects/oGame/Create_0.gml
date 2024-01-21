@@ -3,7 +3,6 @@
 randomize();
 
 global.gamePaused = false;
-global.inDialogue = false;
 global.textSpeed = 0.75;
 global.targetRoom = -1;
 global.targetX = -1;
@@ -13,9 +12,6 @@ global.playerHealthMax = 5.0;
 global.playerHealth = global.playerHealthMax;
 
 global.knownLetters = ".,:!?* ";
-
-global.iCamera = instance_create_layer(0, 0, layer, oCamera);
-global.iUI = instance_create_layer(0, 0, layer, oUI);
 
 display_set_gui_size(RESOLUTION_W, RESOLUTION_H);
 

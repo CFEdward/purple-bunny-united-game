@@ -161,6 +161,7 @@
     {"id":{"name":"sSmolBarrel1","path":"sprites/sSmolBarrel1/sSmolBarrel1.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
+    {"id":{"name":"seqIntro","path":"sequences/seqIntro/seqIntro.yy",},},
     {"id":{"name":"oFrag_SmolBarrel","path":"objects/oFrag_SmolBarrel/oFrag_SmolBarrel.yy",},},
     {"id":{"name":"oFrag_Crate","path":"objects/oFrag_Crate/oFrag_Crate.yy",},},
     {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},},
@@ -177,8 +178,8 @@
     {"id":{"name":"rEntrance","path":"rooms/rEntrance/rEntrance.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
+    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"roomId":{"name":"rIntro","path":"rooms/rIntro/rIntro.yy",},},
     {"roomId":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
     {"roomId":{"name":"rEntrance","path":"rooms/rEntrance/rEntrance.yy",},},

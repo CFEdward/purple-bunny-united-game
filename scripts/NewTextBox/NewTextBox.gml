@@ -6,7 +6,16 @@ function NewTextBox(Message, Background, IsGlitched, Responses)
 {
 	var obj = instance_exists(oText) ? oTextQueued : oText;
 	
-	global.inDialogue = true;
+	with (oPlayer)
+	{
+		if (state != PlayerStateLocked)
+		{
+			sprite_index = sPlayer_1frame;
+			lastState = state;
+			state = PlayerStateLocked;
+		}
+	}
+	
 	with (instance_create_layer(0, 0, "Instances", obj))
 	{
 		textMessage = IsGlitched ? GenerateGlitchedText(Message) : Message;
@@ -35,15 +44,6 @@ function NewTextBox(Message, Background, IsGlitched, Responses)
 				responseScripts[i] = real(responseScripts[i]);
 				responses[i] = string_delete(responses[i], 1, markerPosition);
 			}
-		}
-	}
-	
-	with (oPlayer)
-	{
-		if (state != PlayerStateLocked)
-		{
-			lastState = state;
-			state = PlayerStateLocked;
 		}
 	}
 }

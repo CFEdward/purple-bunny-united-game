@@ -16,9 +16,8 @@ function PlayerStateIntro()
 	// Change State
 	if (floatDistanceRemaining <= 0)
 	{
-		sprite_index = sPlayerIdle;
 		state = PlayerStateFree;
 		
-		NewTextBox("*Argh... What? Where am I? How did I get here?", 1, false, ["1. *Continue*"]);
+		NewTextBox("*Argh... What? Where am I? How did I get here?", 0, false, ["1. *Continue*"]);
 	}
 }

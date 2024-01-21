@@ -19,7 +19,17 @@ else // leading == IN
 	percent = max(0, percent - TRANSITION_SPEED);
 	if (percent <= 0)	// If screen fully revealed
 	{
-		with (oPlayer) state = PlayerStateFree;
+		with (oPlayer)
+		{
+			if (room != rEntrance)
+			{
+				state = PlayerStateFree;
+			}
+			else
+			{
+				state = PlayerStateIntro;
+			}
+		}
 		instance_destroy();
 	}
 }

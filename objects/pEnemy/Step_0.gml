@@ -6,7 +6,7 @@ if (instance_exists(oText))
 	return;
 }
 
-if (!global.gamePaused || !global.inDialogue)
+if (!global.gamePaused)
 {
 	if (enemyScript[state] != noone) enemyScript[state]();
 	depth = -bbox_bottom;

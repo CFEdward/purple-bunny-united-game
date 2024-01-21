@@ -17,7 +17,7 @@ if (instance_exists(oPlayer))
 		direction = point_direction(x, y, px, py);
 		spd = min(spd, 3);
 		fric = 0;
-		if (Dist < 5)	// Collect radius
+		if (dist < 5)	// Collect radius
 		{
 			if (collectScript != noone)
 			{

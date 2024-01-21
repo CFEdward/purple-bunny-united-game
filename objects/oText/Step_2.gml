@@ -35,7 +35,6 @@ if (keyboard_check_pressed(ord("E")))
 		{
 			with (oPlayer) state = lastState;
 		}
-		global.inDialogue = false;
 	}
 	else
 	{

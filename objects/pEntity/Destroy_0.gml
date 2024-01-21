@@ -6,7 +6,7 @@ if (entityFragmentCount > 0)
 	DropItems(x, y, fragmentArray);
 }
 
-if (entityDropList != -1)
-{
-	DropItems(x, y, entityDropList);
-}
+//if (entityDropList != -1)
+//{
+//	DropItems(x, y, entityDropList);
+//}
