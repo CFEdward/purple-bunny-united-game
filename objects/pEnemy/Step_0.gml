@@ -1,6 +1,12 @@
 /// @description State Machine
 
-if (!global.gamePaused)
+if (instance_exists(oText))
+{
+	image_speed = 0;
+	return;
+}
+
+if (!global.gamePaused || !global.inDialogue)
 {
 	if (enemyScript[state] != noone) enemyScript[state]();
 	depth = -bbox_bottom;

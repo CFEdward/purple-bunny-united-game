@@ -6,6 +6,7 @@ function NewTextBox(Message, Background, IsGlitched, Responses)
 {
 	var obj = instance_exists(oText) ? oTextQueued : oText;
 	
+	global.inDialogue = true;
 	with (instance_create_layer(0, 0, "Instances", obj))
 	{
 		textMessage = IsGlitched ? GenerateGlitchedText(Message) : Message;

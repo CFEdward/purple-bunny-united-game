@@ -1,5 +1,10 @@
 //
 
+function GhostIdle()
+{
+	
+}
+
 function GhostWander()
 {
 	sprite_index = sprMove;

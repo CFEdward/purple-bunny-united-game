@@ -15,6 +15,8 @@ statePrevious = state;
 stateWait = 0;
 stateWaitDuration = 0;
 
+inDialogueImageSpeed = image_speed;
+
 // Enemy Stats
 timePassed = 0;
 waitDuration = 60;

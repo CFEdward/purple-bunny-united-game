@@ -12,6 +12,7 @@ sprDie = sGhostDie;
 sprHurt = sGhostHurt;
 
 // Enemy Scripts;
+enemyScript[ENEMYSTATE.IDLE] = GhostIdle;
 enemyScript[ENEMYSTATE.WANDER] = GhostWander;
 enemyScript[ENEMYSTATE.CHASE] = GhostChase;
 enemyScript[ENEMYSTATE.ATTACK] = GhostAttack;

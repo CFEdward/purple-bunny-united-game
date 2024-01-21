@@ -7,14 +7,14 @@ if (z == 0) fric = 0.10;
 // Magnetise
 if (instance_exists(oPlayer))
 {
-	var Px = oPlayer.x;
-	var Py = oPlayer.y;
-	var Dist = point_distance(x, y, Px, Py);
+	var px = oPlayer.x;
+	var py = oPlayer.y;
+	var dist = point_distance(x, y, px, py);
 	
-	if (Dist < 16)	// Magnet radius
+	if (dist < 16)	// Magnet radius
 	{
 		spd += 0.25;
-		direction = point_direction(x, y, Px, Py);
+		direction = point_direction(x, y, px, py);
 		spd = min(spd, 3);
 		fric = 0;
 		if (Dist < 5)	// Collect radius
