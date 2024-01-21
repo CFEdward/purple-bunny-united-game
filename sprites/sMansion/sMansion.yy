@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sMansion",
-  "bbox_bottom": 299,
+  "bbox_bottom": 399,
   "bbox_left": 0,
   "bbox_right": 399,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8721e834-b8be-4b4e-95c7-8b89e9862b05",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56fd4c76-5658-4b9e-a4d2-7b1de1d2993d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 300,
+  "height": 400,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6e577f27-a4e4-43ff-ba55-cf748d6a894a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7f824ad9-ce7f-4cf7-b747-bf5083b3bba4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8721e834-b8be-4b4e-95c7-8b89e9862b05","path":"sprites/sMansion/sMansion.yy",},},},"Disabled":false,"id":"2dba625f-2a94-46bc-9c04-1c2296bc7bae","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"56fd4c76-5658-4b9e-a4d2-7b1de1d2993d","path":"sprites/sMansion/sMansion.yy",},},},"Disabled":false,"id":"8119412a-7f55-41a4-bf4f-62cbd266dfa3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
