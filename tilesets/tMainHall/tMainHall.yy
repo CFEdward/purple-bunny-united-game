@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet6",
+  "name": "tMainHall",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "Sprite54",
-    "path": "sprites/Sprite54/Sprite54.yy",
+    "name": "sHallwayOrWTVthisIs",
+    "path": "sprites/sHallwayOrWTVthisIs/sHallwayOrWTVthisIs.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
