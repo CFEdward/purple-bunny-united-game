@@ -12,9 +12,6 @@
     {"name":"inst_15A2D12A","path":"rooms/rLibrary/rLibrary.yy",},
     {"name":"inst_72A41D72","path":"rooms/rLibrary/rLibrary.yy",},
     {"name":"inst_69F6FDCB","path":"rooms/rLibrary/rLibrary.yy",},
-    {"name":"inst_59CC4CA0","path":"rooms/rLibrary/rLibrary.yy",},
-    {"name":"inst_7C688DCA","path":"rooms/rLibrary/rLibrary.yy",},
-    {"name":"inst_20F6BE0E","path":"rooms/rLibrary/rLibrary.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -32,9 +29,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"Welcome to the Void, Bob...\", 1, 1,  [\"1. How do I escape?\", \"2. Where am I?\"]]",},
           ],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":304.0,"y":272.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59CC4CA0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"properties":[],"rotation":0.0,"scaleX":0.75,"scaleY":0.75,"x":71.75,"y":118.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C688DCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"properties":[],"rotation":0.0,"scaleX":0.75,"scaleY":0.75,"x":71.75,"y":230.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20F6BE0E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"properties":[],"rotation":0.0,"scaleX":0.75,"scaleY":0.75,"x":407.75,"y":166.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Collisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Collision","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":83,"SerialiseWidth":120,"TileCompressedData":[
