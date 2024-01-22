@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Breakables",
+    "path": "folders/Objects/Breakables.yy",
   },
   "parentObjectId": {
     "name": "pFragment",
