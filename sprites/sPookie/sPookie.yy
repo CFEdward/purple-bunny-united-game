@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sPookie",
-  "bbox_bottom": 79,
-  "bbox_left": 20,
-  "bbox_right": 79,
-  "bbox_top": 0,
+  "bbox_bottom": 89,
+  "bbox_left": 0,
+  "bbox_right": 99,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cde1ba96-bff6-4930-89ef-50ce2997dee0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2949951b-c3bf-419d-a8e5-670fdf69f3bd",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 80,
+  "height": 90,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"42b37813-d0d3-4f47-ba2a-97b57ee68cd5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"63d9f1db-ff7f-4c36-91e6-0e861254753d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cde1ba96-bff6-4930-89ef-50ce2997dee0","path":"sprites/sPookie/sPookie.yy",},},},"Disabled":false,"id":"c438bbe9-651b-4692-b50f-2d0cac37d6d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2949951b-c3bf-419d-a8e5-670fdf69f3bd","path":"sprites/sPookie/sPookie.yy",},},},"Disabled":false,"id":"ccd459ee-51f5-480b-aafa-76245e0026c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 80,
+  "width": 100,
 }
