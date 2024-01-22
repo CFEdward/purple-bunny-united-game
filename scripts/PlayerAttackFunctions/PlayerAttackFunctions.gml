@@ -73,6 +73,10 @@ function HurtEnemy(Enemy, Damage, Source, Knockback)
 			if (enemyHP <= 0)
 			{
 				state = ENEMYSTATE.DIE;
+				if (!global.noteDropped)
+				{
+					DropItems(x, y, [oNote]);
+				}
 				if (entityDropList != -1)
 				{
 					DropItems(x, y, entityDropList);

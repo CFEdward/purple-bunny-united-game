@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pFragment","path":"objects/pFragment/pFragment.yy",},"propertyId":{"name":"bounceHeight","path":"objects/pFragment/pFragment.yy",},"value":"5",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Breakables",
+    "path": "folders/Objects/Breakables.yy",
   },
   "parentObjectId": {
     "name": "pFragment",

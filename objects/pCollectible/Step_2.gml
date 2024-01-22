@@ -11,7 +11,7 @@ if (instance_exists(oPlayer))
 	var py = oPlayer.y;
 	var dist = point_distance(x, y, px, py);
 	
-	if (dist < 16)	// Magnet radius
+	if (dist < 24)	// Magnet radius
 	{
 		spd += 0.25;
 		direction = point_direction(x, y, px, py);

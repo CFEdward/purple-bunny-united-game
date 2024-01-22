@@ -12,6 +12,7 @@ global.playerHealthMax = 5.0;
 global.playerHealth = global.playerHealthMax;
 
 global.knownLetters = ".,:!?* ";
+global.noteDropped = false;
 
 display_set_gui_size(RESOLUTION_W, RESOLUTION_H);
 
