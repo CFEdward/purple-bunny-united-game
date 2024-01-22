@@ -2,6 +2,12 @@
 
 if (keyboard_check_pressed(vk_escape))
 {
+	if (instance_exists(oControls))
+	{
+		instance_destroy(oControls);
+		return;
+	}
+	
 	if (!instance_exists(oText))
 	{
 		global.gamePaused = !global.gamePaused;
