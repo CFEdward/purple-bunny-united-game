@@ -1,6 +1,6 @@
 /// @desc Draw Health
 
-if (instance_exists(oText) || instance_exists(oInGameMenu)) return;
+if (instance_exists(oText) || instance_exists(oTextQueued) || instance_exists(oInGameMenu)) return;
 
 var playerHealth = global.playerHealth;
 var playerHealthMax = global.playerHealthMax;

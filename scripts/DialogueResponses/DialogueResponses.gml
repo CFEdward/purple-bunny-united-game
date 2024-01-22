@@ -6,7 +6,8 @@ function DialogueResponses(Response)
 	{
 		case 0: break;
 		case 1: NewTextBox("Tutorial: Walk with WASD, Interact with E,\nAttack with Space, Dodge with Shift", 0, 0, 0, ["2. *Continue*"]); break;
-		case 2: NewTextBox("Tutorial: Press ESC -> Settings -> Controls\nto view the controls whenever you need a reminder", 0, 0, 0); break;
+		case 2: NewTextBox("Tutorial: Press ESC -> Settings -> Controls\nto view the controls whenever you need a reminder", 0, 0, 0, ["16. *Continue*"]); break;
+		case 16: NewTextBox("There's a Note! I should check what it says.", 1, 0, 0); break;
 		
 		case 3: NewTextBox("You must remember.", 1, 1, 0); break;
 		
@@ -31,6 +32,10 @@ function DialogueResponses(Response)
 			{
 				NewTextBox("This cannot be right! Me? A serial killer?\nI don't remember any of this...", 1, 0, 0);
 				NewTextBox("I need to find that secret room", 1, 0, 0);
+			}
+			else
+			{
+				NewTextBox("What is this? I don't understand anything it says.\nIs it a foreign language?", 1, 0, 0);
 			}
 			break;
 		
