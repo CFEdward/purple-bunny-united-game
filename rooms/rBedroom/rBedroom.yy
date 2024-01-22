@@ -11,6 +11,7 @@
     {"name":"inst_764F3BBB","path":"rooms/rBedroom/rBedroom.yy",},
     {"name":"inst_1F8FE838","path":"rooms/rBedroom/rBedroom.yy",},
     {"name":"inst_3366F1FA","path":"rooms/rBedroom/rBedroom.yy",},
+    {"name":"inst_54971B4E","path":"rooms/rBedroom/rBedroom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,11 @@
           ],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":80.0,"y":288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F8FE838","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"properties":[],"rotation":0.0,"scaleX":0.75,"scaleY":0.75,"x":167.75,"y":182.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3366F1FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oInGameMenu","path":"objects/oInGameMenu/oInGameMenu.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54971B4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},"propertyId":{"name":"targetX","path":"objects/oRoomExit/oRoomExit.yy",},"value":"32",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},"propertyId":{"name":"targetY","path":"objects/oRoomExit/oRoomExit.yy",},"value":"160",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},"propertyId":{"name":"targetRoom","path":"objects/oRoomExit/oRoomExit.yy",},"value":"rBedroom",},
+          ],"rotation":0.0,"scaleX":0.5,"scaleY":0.9375,"x":464.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Collisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Collision","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":84,"SerialiseWidth":120,"TileCompressedData":[
