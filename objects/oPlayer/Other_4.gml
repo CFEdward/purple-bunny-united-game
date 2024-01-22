@@ -1,6 +1,6 @@
 /// @description 
 
-if (room == rEntrance)
+if (room == rHall)
 {
 	zHeight = 80;
 	floatDistanceRemaining = zHeight;

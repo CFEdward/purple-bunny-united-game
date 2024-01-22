@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "controls",
-    "path": "sprites/controls/controls.yy",
+    "name": "sControls",
+    "path": "sprites/sControls/sControls.yy",
   },
   "spriteMaskId": null,
   "visible": true,

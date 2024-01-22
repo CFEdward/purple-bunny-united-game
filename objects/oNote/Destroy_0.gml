@@ -5,23 +5,23 @@ NewTextBox(text, 3, false);
 
 switch (room)
 {
-	case rEntrance:
+	case rHall:
 	global.knownLetters += "abcdefABCDEF";
 	break;
 	
-	case rLibrary:
+	case rBedroom:
 	global.knownLetters += "ghijkGHIJK";
 	break;
 	
-	case rKitchen:
+	case rDining:
 	global.knownLetters += "lmnopLMNOP";
 	break;
 	
-	case rBedroom:
+	case rKitchen:
 	global.knownLetters += "qrstuQRSTU";
 	break;
 	
-	case rNewRoom:
+	case rLibrary:
 	global.knownLetters += "vwxyzVWXYZ";
 	break;
 	

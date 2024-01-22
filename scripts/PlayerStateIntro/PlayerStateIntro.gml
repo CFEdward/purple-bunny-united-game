@@ -1,6 +1,7 @@
 // 
 function PlayerStateIntro()
 {
+	global.knownLetters = ".,:!?* ";
 	floatDistanceRemaining = max(0, floatDistanceRemaining - floatSpeed);
 	
 	sprite_index = spriteStanding;

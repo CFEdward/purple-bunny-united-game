@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBobBackwards",
+  "name": "oNPCGigi",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sNPC",
-    "path": "sprites/sNPC/sNPC.yy",
+    "name": "sNPCGigi",
+    "path": "sprites/sNPCGigi/sNPCGigi.yy",
   },
   "spriteMaskId": null,
   "visible": true,

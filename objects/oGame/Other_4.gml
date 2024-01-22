@@ -2,7 +2,7 @@
 
 layer_set_visible("Collision", false);
 
-if (room == rEntrance)
+if (room == rHall)
 {
 	global.iCamera = instance_create_layer(0, 0, layer, oCamera);
 	global.iUI = instance_create_layer(0, 0, layer, oUI);

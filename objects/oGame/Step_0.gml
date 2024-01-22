@@ -9,5 +9,5 @@ if (room == rIntro)
 	var eID = elementsArray[0];
 	
 	// Move to next room if sequence is finished
-	if (layer_sequence_is_finished(eID)) RoomTransition(TRANS_TYPE.FADE, rEntrance);
+	if (layer_sequence_is_finished(eID)) RoomTransition(TRANS_TYPE.FADE, rHall);
 }

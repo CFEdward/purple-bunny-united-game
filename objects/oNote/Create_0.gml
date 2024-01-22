@@ -3,8 +3,12 @@ event_inherited();
 
 switch (room)
 {
-	case rEntrance:
-	text = "In Test Room";
+	case rHall:
+	text = "In Hallway";
+	break;
+	
+	case rDining:
+	text = "In Dining Room";
 	break;
 	
 	case rLibrary:

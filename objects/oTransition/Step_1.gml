@@ -21,7 +21,7 @@ else // leading == IN
 	{
 		with (oPlayer)
 		{
-			if (room != rEntrance)
+			if (room != rHall)
 			{
 				state = PlayerStateFree;
 			}

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sNPCNo3",
+  "name": "sNPCWilliam",
   "bbox_bottom": 63,
   "bbox_left": 16,
   "bbox_right": 45,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c7348b9-ffe8-4b6e-825d-732abd520440",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82dfded0-ea64-4ca3-b582-a4197843b78c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"690f466a-c397-4fc6-84de-9ba6ec9aede8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"32c9ee33-f8ca-438a-bba4-bf37e4ea03b4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Ghost",
-    "path": "folders/Sprites/Ghost.yy",
+    "name": "NPC",
+    "path": "folders/Sprites/NPC.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sNPCNo3",
+    "name": "sNPCWilliam",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1c7348b9-ffe8-4b6e-825d-732abd520440","path":"sprites/sNPCNo3/sNPCNo3.yy",},},},"Disabled":false,"id":"f615bb41-26fa-4f19-8f6f-22418f5865ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"82dfded0-ea64-4ca3-b582-a4197843b78c","path":"sprites/sNPCWilliam/sNPCWilliam.yy",},},},"Disabled":false,"id":"e1260cbd-285b-4b02-9575-3030da17fa11","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
