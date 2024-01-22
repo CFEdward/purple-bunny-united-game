@@ -165,6 +165,7 @@
     {"name":"PlayerAttackFunctions","order":15,"path":"scripts/PlayerAttackFunctions/PlayerAttackFunctions.yy",},
     {"name":"oNPCWilliam","order":8,"path":"objects/oNPCWilliam/oNPCWilliam.yy",},
     {"name":"tLibrary","order":2,"path":"tilesets/tLibrary/tLibrary.yy",},
+    {"name":"sMansionHell","order":29,"path":"sprites/sMansionHell/sMansionHell.yy",},
     {"name":"CollectFunctions","order":22,"path":"scripts/CollectFunctions/CollectFunctions.yy",},
     {"name":"oHealingDrop","order":28,"path":"objects/oHealingDrop/oHealingDrop.yy",},
     {"name":"PlayerActOutAnimation","order":14,"path":"scripts/PlayerActOutAnimation/PlayerActOutAnimation.yy",},

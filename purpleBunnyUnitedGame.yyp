@@ -202,6 +202,7 @@
     {"id":{"name":"PlayerAttackFunctions","path":"scripts/PlayerAttackFunctions/PlayerAttackFunctions.yy",},},
     {"id":{"name":"oNPCWilliam","path":"objects/oNPCWilliam/oNPCWilliam.yy",},},
     {"id":{"name":"tLibrary","path":"tilesets/tLibrary/tLibrary.yy",},},
+    {"id":{"name":"sMansionHell","path":"sprites/sMansionHell/sMansionHell.yy",},},
     {"id":{"name":"CollectFunctions","path":"scripts/CollectFunctions/CollectFunctions.yy",},},
     {"id":{"name":"oHealingDrop","path":"objects/oHealingDrop/oHealingDrop.yy",},},
     {"id":{"name":"PlayerActOutAnimation","path":"scripts/PlayerActOutAnimation/PlayerActOutAnimation.yy",},},
