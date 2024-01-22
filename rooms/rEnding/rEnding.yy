@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rTesting",
+  "name": "rEnding",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,

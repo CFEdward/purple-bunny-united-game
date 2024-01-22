@@ -34,6 +34,10 @@ if (keyboard_check_pressed(ord("E")))
 		{
 			with (oTextQueued) ticket--;
 		}
+		else if (global.triggerEnding)
+		{
+			with (oPlayer) state = PlayerStateEnding;
+		}
 		else
 		{
 			with (oPlayer) state = lastState;

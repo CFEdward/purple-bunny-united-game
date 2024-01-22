@@ -2,7 +2,7 @@
 
 with (oPlayer)
 {
-	if (state != PlayerStateDead) state = PlayerStateTransition;
+	if (state != PlayerStateDead && state != PlayerStateEnding) state = PlayerStateTransition;
 }
 
 if (leading == OUT)
