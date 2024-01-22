@@ -21,3 +21,5 @@ switch (room)
 	
 	default: break;
 }
+
+global.noteDropped = true;

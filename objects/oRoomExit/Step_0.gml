@@ -8,6 +8,7 @@ if (instance_exists(oPlayer)) && (position_meeting(oPlayer.x, oPlayer.y, id))
         global.targetX = targetX;
         global.targetY = targetY;
         global.targetDirection = oPlayer.direction;
+		global.noteDropped = false;
 
         with (oPlayer) state = PlayerStateTransition;
         RoomTransition(transType, targetRoom);

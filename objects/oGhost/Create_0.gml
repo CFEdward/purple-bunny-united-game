@@ -1,7 +1,22 @@
 // Inherit the parent event
 event_inherited();
 
-entityDropList = [oNote];
+entityDropList = choose(
+	[oHealingDrop],
+	[oHealingDrop, oHalfHealingDrop],
+	[oHalfHealingDrop],
+	[oHalfHealingDrop, oHalfHealingDrop],
+	[oQuarterHealingDrop],
+	[oQuarterHealingDrop, oHalfHealingDrop],
+	[oQuarterHealingDrop, oHealingDrop],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1
+);
 
 state = ENEMYSTATE.WANDER;
 
