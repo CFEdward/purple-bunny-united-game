@@ -41,7 +41,15 @@ if accept_key{
 				//break;
 			
 				case 1:
-			
+					if (instance_exists(oControls)){
+						instance_destroy(oControls);	
+					}
+					
+					else{
+						x = camera_get_view_x(view_camera[0])
+						y = camera_get_view_y(view_camera[0])
+						instance_create_layer(x, y, "Instances", oControls);	
+					}
 				break;
 			
 				case 2:

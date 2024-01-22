@@ -44,7 +44,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"GenerateGlitchedText","path":"scripts/GenerateGlitchedText/GenerateGlitchedText.yy",},},
@@ -63,6 +63,7 @@
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},},
     {"id":{"name":"sFrag_SmolBarrel","path":"sprites/sFrag_SmolBarrel/sFrag_SmolBarrel.yy",},},
+    {"id":{"name":"oControls","path":"objects/oControls/oControls.yy",},},
     {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},},
     {"id":{"name":"sGhostDie","path":"sprites/sGhostDie/sGhostDie.yy",},},
     {"id":{"name":"rBedroom","path":"rooms/rBedroom/rBedroom.yy",},},
@@ -114,6 +115,7 @@
     {"id":{"name":"sTransition","path":"sprites/sTransition/sTransition.yy",},},
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},},
     {"id":{"name":"fMainMenu","path":"fonts/fMainMenu/fMainMenu.yy",},},
+    {"id":{"name":"controls","path":"sprites/controls/controls.yy",},},
     {"id":{"name":"PlayerStateIntro","path":"scripts/PlayerStateIntro/PlayerStateIntro.yy",},},
     {"id":{"name":"tSecretRoom","path":"tilesets/tSecretRoom/tSecretRoom.yy",},},
     {"id":{"name":"sMarblePillarFlowerPot1","path":"sprites/sMarblePillarFlowerPot1/sMarblePillarFlowerPot1.yy",},},
