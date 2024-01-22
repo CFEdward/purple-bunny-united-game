@@ -41,6 +41,8 @@ function DialogueResponses(Response)
 		
 		case 15: NewTextBox("*You have learned more of the language*", 3, 0, 0); break;
 		
+		case 17: NewTextBox("Welcome to my new YouTube video!\nPlease remember to subscribe!", 1, 0, 0); break;
+		
 		default: break;
 	}
 }
