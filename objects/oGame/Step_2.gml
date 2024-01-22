@@ -8,7 +8,7 @@ if (keyboard_check_pressed(vk_escape))
 		return;
 	}
 	
-	if (!instance_exists(oText))
+	if (!instance_exists(oText) && !instance_exists(oTransition))
 	{
 		global.gamePaused = !global.gamePaused;
 	

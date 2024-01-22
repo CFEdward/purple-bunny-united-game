@@ -2,6 +2,8 @@
 
 randomize();
 
+gamePausedImageSpeed = 0;
+
 global.gamePaused = false;
 global.textSpeed = 0.75;
 global.targetRoom = -1;
