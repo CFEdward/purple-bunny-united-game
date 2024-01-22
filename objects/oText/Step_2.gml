@@ -6,6 +6,8 @@ textProgress += global.textSpeed;
 x1 = lerp(x1, x1Target, lerpProgress);
 x2 = lerp(x2, x2Target, lerpProgress);
 
+//if (!isBig)
+//{
 // Cycle Through Responses
 keyUp = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 keyDown = keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
@@ -14,6 +16,7 @@ var maximum = array_length(responses) - 1;
 var minimum = 0;
 if (responseSelected > maximum) responseSelected = minimum;
 if (responseSelected < minimum) responseSelected = maximum;
+//}
 
 // End Message
 if (keyboard_check_pressed(ord("E")))

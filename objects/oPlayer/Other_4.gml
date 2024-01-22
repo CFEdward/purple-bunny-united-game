@@ -1,6 +1,6 @@
 /// @description 
 
-if (room == rHall)
+if (room == rHall && !global.introSequencePlayed)
 {
 	zHeight = 80;
 	floatDistanceRemaining = zHeight;

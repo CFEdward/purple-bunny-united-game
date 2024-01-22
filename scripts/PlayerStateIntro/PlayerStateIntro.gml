@@ -1,7 +1,7 @@
 // 
 function PlayerStateIntro()
 {
-	global.knownLetters = ".,:!?* ";
+	global.knownLetters = ".,:!?* 0123456789";
 	floatDistanceRemaining = max(0, floatDistanceRemaining - floatSpeed);
 	
 	sprite_index = spriteStanding;
@@ -17,8 +17,9 @@ function PlayerStateIntro()
 	// Change State
 	if (floatDistanceRemaining <= 0)
 	{
+		global.introSequencePlayed = true;
 		state = PlayerStateFree;
 		
-		NewTextBox("*Argh... What? Where am I? How did I get here?", 1, false, ["1. *Continue*"]);
+		NewTextBox("*Argh... What? Where am I? How did I get here?", 1, 0, 0, ["1. *Press E to continue*"]);
 	}
 }

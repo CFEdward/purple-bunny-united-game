@@ -1,8 +1,9 @@
 /// @arg Message
 /// @arg Background
 /// @arg IsGlitched
+/// @arg IsBig
 /// @arg [Responses]
-function NewTextBox(Message, Background, IsGlitched, Responses)
+function NewTextBox(Message, Background, IsGlitched, IsBig, Responses)
 {
 	var obj = instance_exists(oText) ? oTextQueued : oText;
 	
@@ -18,6 +19,7 @@ function NewTextBox(Message, Background, IsGlitched, Responses)
 	
 	with (instance_create_layer(0, 0, "Instances", obj))
 	{
+		isBig = false;
 		textMessage = IsGlitched ? GenerateGlitchedText(Message) : Message;
 		background = Background;
 		originInstance = instance_exists(other) ? other.id : noone;
@@ -26,6 +28,22 @@ function NewTextBox(Message, Background, IsGlitched, Responses)
 		{
 			background = 1;
 		} else background = Background;
+		
+		if (is_undefined(IsBig))
+		{
+			isBig = false;
+			y1 = RESOLUTION_H - 70;
+		}
+		else if (IsBig)
+		{
+			isBig = true;
+			y1 = 0;
+		}
+		else
+		{
+			isBig = false;
+			y1 = RESOLUTION_H - 70;
+		}
 		
 		if (is_undefined(Responses))
 		{

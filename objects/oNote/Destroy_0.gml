@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-NewTextBox(text, 3, false);
+NewTextBox(text, 3, 0, 0, ["15. *Continue*"]);
 
 switch (room)
 {
@@ -10,6 +10,7 @@ switch (room)
 	break;
 	
 	case rBedroom:
+	
 	global.knownLetters += "ghijkGHIJK";
 	break;
 	
@@ -27,3 +28,5 @@ switch (room)
 	
 	default: break;
 }
+
+if (string_length(global.knownLetters) >= 65) global.allLettersKnown = true;

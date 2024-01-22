@@ -1,5 +1,7 @@
 /// @desc Draw Health
 
+if (instance_exists(oText) || instance_exists(oInGameMenu)) return;
+
 var playerHealth = global.playerHealth;
 var playerHealthMax = global.playerHealthMax;
 var playerHealthFrac = frac(playerHealth);

@@ -5,6 +5,8 @@ y1 = RESOLUTION_H - 70;
 x2 = RESOLUTION_W / 2;
 y2 = RESOLUTION_H;
 
+//isBig = false;
+
 x1Target = 0;
 x2Target = RESOLUTION_W;
 

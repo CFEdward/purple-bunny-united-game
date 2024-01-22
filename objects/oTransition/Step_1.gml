@@ -21,7 +21,7 @@ else // leading == IN
 	{
 		with (oPlayer)
 		{
-			if (room != rHall)
+			if (global.introSequencePlayed)
 			{
 				state = PlayerStateFree;
 			}
