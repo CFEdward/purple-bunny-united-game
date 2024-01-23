@@ -5,6 +5,8 @@ function PlayerStateRoll()
 	hSpeed = lengthdir_x(speedRoll, direction);
 	vSpeed = lengthdir_y(speedRoll, direction);
 	
+	invulnerable = 9;
+	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);
 	var collided = PlayerCollision();
 	

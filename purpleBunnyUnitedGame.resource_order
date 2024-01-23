@@ -40,7 +40,6 @@
     {"name":"sNotePapers1","order":11,"path":"sprites/sNotePapers1/sNotePapers1.yy",},
     {"name":"sMenuBackgroundPops6060","order":6,"path":"sprites/sMenuBackgroundPops6060/sMenuBackgroundPops6060.yy",},
     {"name":"sHallwayOrWTVthisIs","order":25,"path":"sprites/sHallwayOrWTVthisIs/sHallwayOrWTVthisIs.yy",},
-    {"name":"NewBigTextBox","order":23,"path":"scripts/NewBigTextBox/NewBigTextBox.yy",},
     {"name":"sNPCWilliam","order":4,"path":"sprites/sNPCWilliam/sNPCWilliam.yy",},
     {"name":"GhostFunctions","order":18,"path":"scripts/GhostFunctions/GhostFunctions.yy",},
     {"name":"oNote","order":27,"path":"objects/oNote/oNote.yy",},

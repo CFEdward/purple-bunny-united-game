@@ -3,7 +3,7 @@
 // TODO: Add shadow sprite
 //draw_sprite(sShadow, 0, floor(x), floor(y));
 
-if (invulnerable != 0) && ((invulnerable mod 8 < 2) == 0) && (flash == 0)
+if (invulnerable != 0) && ((invulnerable mod 8 < 2) == 0) && (flash == 0) && (state != PlayerStateRoll)
 {
 	// skip draw
 }

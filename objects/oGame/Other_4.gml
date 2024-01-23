@@ -8,6 +8,11 @@ if (room == rHall && !global.introSequencePlayed)
 	global.iUI = instance_create_layer(0, 0, layer, oUI);
 }
 
+if (room == rEnding && instance_exists(global.iUI))
+{
+	instance_destroy(global.iUI);
+}
+
 
 
 ////set grid / tile size

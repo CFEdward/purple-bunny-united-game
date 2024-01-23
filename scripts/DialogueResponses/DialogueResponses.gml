@@ -30,6 +30,7 @@ function DialogueResponses(Response)
 		case 14:
 			if (global.allLettersKnown)
 			{
+				global.readBackstory = true;
 				NewTextBox("This cannot be right! Me? A serial killer?\nI don't remember any of this...", 1, 0, 0);
 				NewTextBox("I need to find that secret room", 1, 0, 0);
 			}
@@ -39,10 +40,12 @@ function DialogueResponses(Response)
 			}
 			break;
 		
-		case 15: NewTextBox("*You have learned more of the language*", 3, 0, 0); break;
+		case 15: break;
 		
-		case 17: NewTextBox("Welcome to my new YouTube video!\nPlease remember to subscribe!", 1, 0, 0, ["18. *Continue*"]); break;
+		case 17: NewTextBox("Hahaha... I'm the devil, you fool!\nIt's time to pay for your sins...", 1, 0, 0, ["19. What? So everything was true? I am a murderer?"]); break;
 		case 18: global.triggerEnding = true; break;
+		case 19: NewTextBox("Yes, Bob... You haven't been very nice when you were alive.", 1, 0, 0, ["20. When I was alive? Am I dead!?"]); break;
+		case 20: NewTextBox("Hahaha, of course you are dead Bob!\nHow else do you think we are even talking right now?", 1, 0, 0, ["18. No...!"]); break;
 		
 		default: break;
 	}

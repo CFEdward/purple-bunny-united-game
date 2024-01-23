@@ -19,6 +19,7 @@ global.knownLetters = ".,:!?* 0123456789";
 global.allLettersKnown = false;
 global.noteDropped = false;
 
+global.readBackstory = false;
 global.triggerEnding = false;
 
 display_set_gui_size(RESOLUTION_W, RESOLUTION_H);

@@ -12,4 +12,5 @@ if (room == rHall && !global.introSequencePlayed)
 if (room == rHall && global.allLettersKnown)
 {
 	NewTextBox("Back here? Maybe now I will understand what\nthat note says!", 1, 0, 0);
+	global.noteDropped = true;
 }

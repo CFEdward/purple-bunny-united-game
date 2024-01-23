@@ -16,7 +16,7 @@ if (!global.gamePaused)
 {
 	state();
 	invulnerable = max(invulnerable - 1, 0);
-	invulnerable = 1; // DEBUG
+	//invulnerable = 1; // DEBUG
 	flash = max(flash - 0.05, 0);
 }
 
