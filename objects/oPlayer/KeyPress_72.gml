@@ -8,4 +8,4 @@
 
 
 
-global.allLettersKnown = true;
+//global.allLettersKnown = true;
